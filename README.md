@@ -3,8 +3,8 @@
 
 ## Overview
 
-This repository contains the source code for a minimalistic black portfolio website. It is designed to showcase your personal or professional portfolio in a sleek and modern manner.
-
+ This repository contains the source files for shopping website.
+ 
 ## Features
 
     Clean and minimalistic design
