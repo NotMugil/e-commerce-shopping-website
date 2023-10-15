@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@700;800;900&family=Open+Sans:wght@800&display=swap');
+
+:root{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    --text-color: rgba(255,255,255,1);
+    --background-color: rgba(0,0,0,1);
+}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.signup-popup{
+    font-family: serif;
+    font-size: .8rem;
+    background-color: rgba(0,0,0);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.signup-popup p{
+    padding: 0.5rem 0rem;
+}
+
+.signup-popup a{
+    color: var(--text-color);
+}
+
+#navbar{
+    display: flex;
+    
+    font-weight: 300;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+}
+
+#navbar ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-logo{
+    display: flex;
+    align-self: center;
+}
+
+.navbar-logo>h1{
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.navbar-elements>ul{
+    display: flex;
+    gap: 3rem;
+}
+
+.navbar-elements a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 7px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(240, 240, 240);
+}
+
+.search input[type=text]{
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.navbar input:focus, textarea:focus, select:focus, a:focus{
+    outline: none;
+    border
+}
+
+.search button{
+    display: flex;
+    align-self: center;
+    background-color: rgb(240, 240, 240);
+    color: rgba(0,0,0,0.7);
+    float: left;
+    border-radius: 50%;
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+} 
+
+.navbar-icons{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.hero-section{
+    background-color: rgb(242, 240, 241);
+    width: 100%;
+    height: 500px;
+}
+
+.hero-text{
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 50%;
+    float: left;
+}
+
+.hero-text > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.hero-text > p {
+    width: 75%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.5);
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.shop-button{
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+    padding: 0.7rem 4rem;
+    border-radius: 25px;
+    color: #fff;
+    background-color: black;
+    border: none;
+}
+
+.hero-text-info{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.ht-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 1.5rem;
+
+}
+
+.ht-border{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.ht-info > h1{
+    font-size: 1.5rem;
+}
+
+.ht-info > h2{
+    color: rgba(0,0,0);
+    font-weight: 400;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.hero-img{
+    position: absolute;
+    top: 17%;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.brands{
+    background-color: var(--background-color);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 1000;
+    justify-content: space-around; 
+    height: auto;
+    padding: 2rem;
+}
+
+.brand-logo{
+    height: max-content;
+    align-items: center;
+}
+
+.sparkle-1{
+    position: absolute;
+    z-index: 4;
+    top: 10%;
+    right: 5%;
+}
+
+.sparkle-2{
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    right: 90%;
+}
+
+.new-arrivals > h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.new-arrivals-items{
+    margin-top: 2rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.nwa-item > img{
+    width: 18vw;
+}
+
+.nwa-item > h2{
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+
+.stars{
+    padding-left: 0.4rem;
+}
+
+.rating{
+    display: flex;
+    gap: 1rem;
+}
+
+.rating p{
+    display: flex;
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    align-self: center;
+}
+
+.rate{
+    display: flex;
+    gap: 0.4rem;
+}
+
+.old-money{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.discount{
+    background-color: rgba(255, 0, 0,0.4);
+    color: rgba(0,0,0,0.7);
+    font-size: 0.7rem;
+    padding: 0.1rem 0.2rem;
+    font-weight: 700;
+    border-radius: 2px;
+    align-self: center;
+}
+
+.nwa-item h1{
+    padding: 0.4rem 0rem;
+    font-size: 1.2rem;
+}
+
