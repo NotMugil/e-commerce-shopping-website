@@ -1,2 +1,2 @@
 # e-commerce-shopping-website
-This repository contains the source files for shopping website
+![Frame 6](https://github.com/NotMugil/e-commerce-shopping-website/assets/86902446/d9535668-75ac-42bb-b565-f450515141a7)
